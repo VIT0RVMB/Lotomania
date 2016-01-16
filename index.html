@@ -188,7 +188,7 @@ var timer = setTimeout(function() {
 
  function auto_load(){
         $.ajax({
-          url: "loteria.php",
+          url: "http://zecanovaes.esy.es/loteria.php",
           cache: false,
           success: function(data){
              $("#numeros").html(data);
